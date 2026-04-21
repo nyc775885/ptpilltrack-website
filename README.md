@@ -1,6 +1,6 @@
 # ptpilltrack-website
 
-Public website for the Pill Tracker mobile app. Hosts the landing page, Privacy Policy, and Terms of Service at <https://ptpilltrack.com>.
+Public website for the Pill Tracker mobile app. Hosts the landing page, Privacy Policy, and Terms of Service at <https://ptpilltracker.com>.
 
 ## Structure
 
@@ -27,7 +27,7 @@ URLs are served by Cloudflare Pages. Any folder with `index.html` is reachable a
    git commit -m "Update privacy policy"
    git push
    ```
-4. Cloudflare Pages auto-deploys within ~30 seconds of the push. Visit ptpilltrack.com to verify.
+4. Cloudflare Pages auto-deploys within ~30 seconds of the push. Visit ptpilltracker.com to verify.
 
 ## Updating the effective date
 
@@ -38,7 +38,7 @@ The canonical Markdown source of these docs lives in the app repo at `pill-track
 ## Hosting
 
 - **DNS & CDN & static site**: Cloudflare Pages (free plan)
-- **Email forwarding**: Cloudflare Email Routing (free) — `support@ptpilltrack.com` forwards to personal Gmail
+- **Email forwarding**: Cloudflare Email Routing (free) — `support@ptpilltracker.com` forwards to personal Gmail
 - **Domain registrar**: Porkbun (where the domain is renewed)
 
 ## Local testing
